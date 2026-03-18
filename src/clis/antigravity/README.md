@@ -12,9 +12,8 @@ Start the Antigravity desktop app with the Chrome DevTools `remote-debugging-por
 
 \`\`\`bash
 # Start Antigravity in the background
-/Applications/Antigravity.app/Contents/MacOS/Electron \\
-  --remote-debugging-port=9224 \\
-  --remote-allow-origins="*"
+/Applications/Antigravity.app/Contents/MacOS/Electron \
+  --remote-debugging-port=9224
 \`\`\`
 
 *(Note: Depending on your installation, the executable might be named differently, e.g., \`Antigravity\` instead of \`Electron\`.)*

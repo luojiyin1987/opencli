@@ -9,7 +9,7 @@ This skill allows AI agents to control the [Antigravity](https://github.com/chen
 ## Requirements
 The target Electron application MUST be launched with the remote-debugging-port flag:
 \`\`\`bash
-/Applications/Antigravity.app/Contents/MacOS/Electron --remote-debugging-port=9224 --remote-allow-origins="*"
+/Applications/Antigravity.app/Contents/MacOS/Electron --remote-debugging-port=9224
 \`\`\`
 
 The agent must configure the endpoint environment variable locally before invoking standard commands:
